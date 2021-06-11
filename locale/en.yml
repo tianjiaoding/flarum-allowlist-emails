@@ -1,0 +1,3 @@
+whitelist-email:
+  error:
+    message: Only emails with certain domains are allowed.

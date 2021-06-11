@@ -1,0 +1,39 @@
+{
+  "name": "tianjiaoding/flarum-allowlist-emails",
+  "description": "Allows registration only from certain domains.",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/tianjiaoding/flarum-allowlist-emails/issues",
+    "source": "https://github.com/tianjiaoding/flarum-allowlist-emails"
+  },
+  "require": {
+    "flarum/core": "^1.0.0"
+  },
+  "authors": [
+    {
+      "name": "Tianjiao Ding",
+      "email": "richard.dtj@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WhitelistEmails\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Whitelist Emails",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-user-times",
+        "backgroundColor": "#e74c3c",
+        "color": "#fff"
+      }
+    }
+  }
+}
